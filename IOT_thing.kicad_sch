@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "74ff75df-a610-4a7e-aba7-2cf192dd419c")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "IOT -THING")
 		(date "2025-07-09")
@@ -2807,6 +2807,509 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_RGBA"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RGBA"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, red/green/blue/anode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGBA_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGBA_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RGBA_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:LL4148"
 			(pin_numbers
 				(hide yes)
@@ -3499,6 +4002,113 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4746,6 +5356,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM1117MP-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM1117MP-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM1117MP-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM1117MP-3.3_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Relay:RT314A05"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5287,6 +6034,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
 				(offset 0)
@@ -5774,7 +6657,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 254 99.06 0)
+		(at 384.81 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5783,7 +6666,7 @@
 		(fields_autoplaced yes)
 		(uuid "04b56f70-2bd4-4717-8ecd-8984dccd140f")
 		(property "Reference" "J3"
-			(at 256.54 97.7899 0)
+			(at 387.35 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +6675,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 256.54 100.3299 0)
+			(at 387.35 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +6684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 99.06 0)
+			(at 384.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +6693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 99.06 0)
+			(at 384.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +6702,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 254 99.06 0)
+			(at 384.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5847,7 +6730,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 231.14 144.78 0)
+		(at 361.95 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5856,7 +6739,7 @@
 		(fields_autoplaced yes)
 		(uuid "04d0d1ba-3a83-42b6-8476-bc9565289474")
 		(property "Reference" "F1"
-			(at 233.68 143.5099 0)
+			(at 364.49 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5865,7 +6748,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 233.68 146.0499 0)
+			(at 364.49 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5874,7 +6757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.362 144.78 90)
+			(at 360.172 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,7 +6766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 144.78 0)
+			(at 361.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,7 +6775,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 231.14 144.78 0)
+			(at 361.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6800,7 @@
 	)
 	(symbol
 		(lib_id "Diode:LL4148")
-		(at 209.55 88.9 270)
+		(at 340.36 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5926,7 +6809,7 @@
 		(fields_autoplaced yes)
 		(uuid "0af65b67-082b-4eac-9b69-90d9e75f84b1")
 		(property "Reference" "D1"
-			(at 212.09 87.6299 90)
+			(at 342.9 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +6818,7 @@
 			)
 		)
 		(property "Value" "LL4148"
-			(at 212.09 90.1699 90)
+			(at 342.9 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +6827,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 205.105 88.9 0)
+			(at 335.915 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +6836,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85557/ll4148.pdf"
-			(at 209.55 88.9 0)
+			(at 340.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6845,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, MiniMELF"
-			(at 209.55 88.9 0)
+			(at 340.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6854,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 209.55 88.9 0)
+			(at 340.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6863,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 88.9 0)
+			(at 340.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6005,7 +6888,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 251.46 128.27 0)
+		(at 382.27 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6014,7 +6897,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cfac4d1-1d6b-4c24-b55f-5c44c0d5049c")
 		(property "Reference" "J5"
-			(at 254 128.2699 0)
+			(at 384.81 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6906,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 254 130.8099 0)
+			(at 384.81 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,7 +6915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 128.27 0)
+			(at 382.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6041,7 +6924,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 128.27 0)
+			(at 382.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6933,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 128.27 0)
+			(at 382.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,16 +7040,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 196.85 88.9 90)
+		(at 64.77 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d98e945-8f98-4245-a4c1-627e58018662")
-		(property "Reference" "D2"
-			(at 200.66 89.2174 90)
+		(uuid "20ca08ce-b224-4ca5-88de-449a62431ecc")
+		(property "Reference" "D4"
+			(at 68.58 150.1774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +7058,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 200.66 91.7574 90)
+			(at 68.58 152.7174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,7 +7067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 88.9 0)
+			(at 64.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 88.9 0)
+			(at 64.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +7085,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 196.85 88.9 0)
+			(at 64.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +7094,86 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 88.9 0)
+			(at 64.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ffc75f-0144-43a3-ab94-9f43265913e4")
+		)
+		(pin "2"
+			(uuid "6a4ff81c-ca5a-4f34-881e-8171b615f75a")
+		)
+		(instances
+			(project "IOT_thing"
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 327.66 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d98e945-8f98-4245-a4c1-627e58018662")
+		(property "Reference" "D2"
+			(at 331.47 85.4074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 331.47 87.9474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 327.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 327.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 327.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 327.66 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,17 +7197,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 231.14 134.62 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 80.01 219.71 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3c834a7d-731d-4b20-b210-8724b143c866")
-		(property "Reference" "C1"
-			(at 233.68 132.8038 0)
+		(uuid "301c5808-3492-4bd4-8625-3887fde831bf")
+		(property "Reference" "H4"
+			(at 82.55 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,8 +7215,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized_Small"
-			(at 233.68 135.3438 0)
+		(property "Value" "Hole_Pad"
+			(at 82.55 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +7225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 134.62 0)
+			(at 80.01 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +7234,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 134.62 0)
+			(at 80.01 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 80.01 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff9fb0f3-160b-43e2-a8de-f017a9dcce2b")
+		)
+		(instances
+			(project "IOT_thing"
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 361.95 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c834a7d-731d-4b20-b210-8724b143c866")
+		(property "Reference" "C1"
+			(at 364.49 128.9938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized_Small"
+			(at 364.49 131.5338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +7310,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 231.14 134.62 0)
+			(at 361.95 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +7335,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32D")
-		(at 73.66 57.15 0)
+		(at 209.55 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6315,7 +7344,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ead27cd-d1f7-48cc-aa3d-4df163079ec2")
 		(property "Reference" "U1"
-			(at 75.8033 19.05 0)
+			(at 211.6933 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +7353,7 @@
 			)
 		)
 		(property "Value" "ESP32-WROOM-32D"
-			(at 75.8033 21.59 0)
+			(at 211.6933 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +7362,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-WROOM-32D"
-			(at 90.17 91.44 0)
+			(at 226.06 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +7371,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf"
-			(at 66.04 55.88 0)
+			(at 201.93 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +7380,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
-			(at 73.66 57.15 0)
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +7769,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 252.73 147.32 0)
+		(at 383.54 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6749,7 +7778,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b90ac1b-4ee6-43cd-8833-218d0ff2c8c0")
 		(property "Reference" "J4"
-			(at 255.27 147.3199 0)
+			(at 386.08 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +7787,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x08"
-			(at 255.27 149.8599 0)
+			(at 386.08 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +7796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 147.32 0)
+			(at 383.54 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6776,7 +7805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 147.32 0)
+			(at 383.54 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +7814,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 252.73 147.32 0)
+			(at 383.54 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6821,6 +7850,144 @@
 			(project ""
 				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LM1117MP-3.3")
+		(at 44.45 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f464720-4f37-41c3-9fd7-dab450be01cf")
+		(property "Reference" "U6"
+			(at 44.45 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM1117MP-3.3"
+			(at 44.45 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2b92db5-57c6-4462-92f2-bc48e3276187")
+		)
+		(pin "3"
+			(uuid "58529f74-4468-414a-a59c-5827b6bc8660")
+		)
+		(pin "1"
+			(uuid "b99a8ddc-de25-471a-9116-f5150e1d014b")
+		)
+		(instances
+			(project ""
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 60.96 219.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f81fe38-6595-488f-b5e6-f33955fda555")
+		(property "Reference" "H3"
+			(at 63.5 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 63.5 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 60.96 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e5edeb-07cf-4d9d-9183-88c4db8c0df2")
+		)
+		(instances
+			(project "IOT_thing"
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6994,8 +8161,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 45.72 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83763746-d9d2-4878-8932-9ac831b8165c")
+		(property "Reference" "SW1"
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 45.72 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 45.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66e61e7c-5dc5-49d6-8990-536a78f00c77")
+		)
+		(pin "1"
+			(uuid "07a6a5d8-d5ec-4062-a587-399c59546bf1")
+		)
+		(instances
+			(project ""
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay:RT314A05")
-		(at 231.14 87.63 0)
+		(at 361.95 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7004,7 +8239,7 @@
 		(fields_autoplaced yes)
 		(uuid "926ac551-ed1f-4ff2-84f4-416b7a9c13be")
 		(property "Reference" "K1"
-			(at 242.57 86.3599 0)
+			(at 373.38 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7013,7 +8248,7 @@
 			)
 		)
 		(property "Value" "RT314A05"
-			(at 242.57 88.8999 0)
+			(at 373.38 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +8257,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_SPDT_Schrack-RT1-16A-FormC_RM5mm"
-			(at 270.51 88.9 0)
+			(at 401.32 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +8266,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=RT1_bistable&DocType=DS&DocLang=English"
-			(at 231.14 87.63 0)
+			(at 361.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +8275,7 @@
 			)
 		)
 		(property "Description" "Schrack RT1 relay, bistable single pole dual throw, single DC coil, 5V"
-			(at 231.14 87.63 0)
+			(at 361.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +8309,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC817")
-		(at 223.52 104.14 0)
+		(at 354.33 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7083,7 +8318,7 @@
 		(fields_autoplaced yes)
 		(uuid "972feed2-5e87-4998-8faa-3702794bd2e9")
 		(property "Reference" "Q3"
-			(at 228.6 102.8699 0)
+			(at 359.41 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +8327,7 @@
 			)
 		)
 		(property "Value" "BC817"
-			(at 228.6 105.4099 0)
+			(at 359.41 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +8336,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 228.6 106.045 0)
+			(at 359.41 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +8347,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
-			(at 223.52 104.14 0)
+			(at 354.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +8357,7 @@
 			)
 		)
 		(property "Description" "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 223.52 104.14 0)
+			(at 354.33 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,8 +8384,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 219.71 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984361d3-33a7-44ff-8311-f4ea99ab4d45")
+		(property "Reference" "H2"
+			(at 44.45 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Hole_Pad"
+			(at 44.45 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2126eaa-ca52-4de7-9212-0905d7c4b906")
+		)
+		(instances
+			(project "IOT_thing"
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Humidity:Si7021-A20")
-		(at 251.46 60.96 0)
+		(at 382.27 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7158,7 +8460,7 @@
 		(dnp no)
 		(uuid "b40761fd-109d-47b4-962d-3f0ba0fb9dd8")
 		(property "Reference" "U4"
-			(at 262.89 59.6899 0)
+			(at 393.7 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +8469,7 @@
 			)
 		)
 		(property "Value" "Si7021-A20"
-			(at 262.89 62.2299 0)
+			(at 393.7 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7176,7 +8478,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm"
-			(at 251.46 71.12 0)
+			(at 382.27 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +8487,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/Si7021-A20.pdf"
-			(at 246.38 53.34 0)
+			(at 377.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +8496,7 @@
 			)
 		)
 		(property "Description" "I2C Humidity and Temperature Sensor, DFN-6"
-			(at 251.46 60.96 0)
+			(at 382.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +8536,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC245")
-		(at 210.82 140.97 0)
+		(at 341.63 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7243,7 +8545,7 @@
 		(fields_autoplaced yes)
 		(uuid "de54561e-4fb1-4d0e-9959-d75d8dddd311")
 		(property "Reference" "U5"
-			(at 212.9633 120.65 0)
+			(at 343.7733 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +8554,7 @@
 			)
 		)
 		(property "Value" "74HC245"
-			(at 212.9633 123.19 0)
+			(at 343.7733 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +8563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 140.97 0)
+			(at 341.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +8572,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC245"
-			(at 210.82 140.97 0)
+			(at 341.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,7 +8581,7 @@
 			)
 		)
 		(property "Description" "Octal BUS Transceivers, 3-State outputs"
-			(at 210.82 140.97 0)
+			(at 341.63 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,17 +8659,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 241.3 35.56 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 21.59 219.71 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f506b2ad-455c-4c7d-9c21-4c710852ed79")
-		(property "Reference" "J2"
-			(at 243.84 35.5599 0)
+		(uuid "e48b3488-fc2b-4cac-9f19-3e1e07c71f22")
+		(property "Reference" "H1"
+			(at 24.13 217.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7375,8 +8677,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 243.84 38.0999 0)
+		(property "Value" "Hole_Pad"
+			(at 24.13 219.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +8687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 35.56 0)
+			(at 21.59 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7394,7 +8696,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 35.56 0)
+			(at 21.59 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 21.59 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd83cabd-a069-48d4-9583-358ac1f11b75")
+		)
+		(instances
+			(project ""
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 372.11 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f506b2ad-455c-4c7d-9c21-4c710852ed79")
+		(property "Reference" "J2"
+			(at 374.65 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 374.65 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7403,7 +8772,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 241.3 35.56 0)
+			(at 372.11 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7427,6 +8796,80 @@
 			(project ""
 				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RGBA")
+		(at 68.58 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd043c86-98fc-4ce3-86a7-ebd35e0e7294")
+		(property "Reference" "D3"
+			(at 68.58 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RGBA"
+			(at 68.58 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/green/blue/anode"
+			(at 68.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d323b2c-4783-4177-912e-62ef625c0af6")
+		)
+		(pin "1"
+			(uuid "0eea32aa-03b6-4fb2-8a58-f9df0dfe4eba")
+		)
+		(pin "3"
+			(uuid "b3ef415c-2c30-4f13-9992-e7a20c430bdd")
+		)
+		(pin "4"
+			(uuid "a29b3f0a-2fe2-4b35-bba7-0483b842780e")
+		)
+		(instances
+			(project ""
+				(path "/74ff75df-a610-4a7e-aba7-2cf192dd419c"
+					(reference "D3")
 					(unit 1)
 				)
 			)
