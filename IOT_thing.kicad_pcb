@@ -2231,26 +2231,15 @@
 			(uuid "681e559f-a2c6-448c-a023-262937b83285")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
+		(model "${KIPRJMOD}/3D models/HRO  TYPE-C-31-M-12.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -4.5 -3.7 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/Dennis/Downloads/type-c-31-m-12-1.snapshot.5/HRO_TYPE-C-31-M-12.step"
-			(offset
-				(xyz -4.5 -3.2 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
+				(xyz 90 -180 -180)
 			)
 		)
 	)
@@ -14840,20 +14829,9 @@
 			(uuid "8004463b-c1fa-41b8-95cd-93f6b468ae9a")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/3D models/SM04B-SRSS-TB(LF)(SN)--3DModel-STEP-56544.STEP"
 			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/Users/Dennis/Downloads/SM04B-SRSS-TB (LF)(SN)--3DModel-STEP-269445.STEP"
-			(offset
-				(xyz 0 1.5 -0.5)
+				(xyz 0 1.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -16057,6 +16035,17 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/users/gathonjia/Documents/KiCad/9.0/3dmodels/Package_DFN_QFN.3dshapes/Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P1mm_EP1.5x2.4mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17914,7 +17903,7 @@
 			(uuid "a49572e8-797d-4818-810b-60d223474b71")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4.9025 -7.75 180)
+			(at -0.825 -4.59 180)
 			(layer "F.Fab")
 			(uuid "7c1838df-299a-4ad1-bebf-aee29b3d460f")
 			(effects
@@ -17961,18 +17950,7 @@
 			(uuid "0938c406-e21c-4139-b26e-d19039fffdc3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "C:/KiCad/3D/DTSM-63N-V-B.stp"
+		(model "${KIPRJMOD}/3D models/DTSM-63N-V-B.stp"
 			(offset
 				(xyz 0 0 0)
 			)
