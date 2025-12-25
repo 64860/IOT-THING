@@ -1,0 +1,9 @@
+Manufacturer=Espressif Systems
+PartNumber=ESP32-WROOM-32E(M113EH3200PH3Q0)
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=47
+Version=1.4
+Released=2020-06-10 15:12:36
+Downloaded=2025-12-23 19:06:04
+3D=Y

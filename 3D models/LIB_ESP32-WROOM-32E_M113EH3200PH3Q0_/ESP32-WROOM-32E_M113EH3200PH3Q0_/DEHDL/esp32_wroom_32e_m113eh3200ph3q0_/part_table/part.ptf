@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESP32_WROOM_32E_M113EH3200PH3Q0_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "IC_COMPONENTS_PART_NUMBER", "IC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Espressif Systems", "ESP32-WROOM-32E(M113EH3200PH3Q0)" (!) = "", "ESP32WROOM32EM113EH3200PH3Q0", "Other", "", "", "WiFi Modules (802.11) SMD Module ESP32-D0WD-V3, 4 MB SPI flash, PCB antenna", "", "3.25 mm"
+END_PART
+
+END.

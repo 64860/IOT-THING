@@ -12474,7 +12474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:FUSE_696105003002"
+		(property "Footprint" "iot-thing_Library_11:FUSE_696105003002"
 			(at 337.312 194.31 90)
 			(effects
 				(font
@@ -16724,22 +16724,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "8575338e-a546-4315-ad24-10000aaec128")
+			(uuid "8575338e-a546-4315-ad24-10000aaec129")
 		)
 		(pin "5"
-			(uuid "2f42f65b-760f-44a7-a789-8b5d0a8c7b1c")
+			(uuid "2f42f65b-760f-44a7-a789-8b5d0a8c7b1d")
 		)
 		(pin "4"
-			(uuid "2887dc29-3c3b-4fa6-8d7e-22312c5b4210")
+			(uuid "2887dc29-3c3b-4fa6-8d7e-22312c5b4211")
 		)
 		(pin "1"
-			(uuid "79887f4b-26ae-42bf-81ec-d98f6c9f3634")
+			(uuid "79887f4b-26ae-42bf-81ec-d98f6c9f3635")
 		)
 		(pin "3"
-			(uuid "8d9c973d-248a-4d9e-9294-3202f3178559")
+			(uuid "8d9c973d-248a-4d9e-9294-3202f317855a")
 		)
 		(pin "6"
-			(uuid "94edc928-e5a6-4d6f-b97c-3e907351caca")
+			(uuid "94edc928-e5a6-4d6f-b97c-3e907351cacb")
 		)
 		(instances
 			(project ""
@@ -17594,7 +17594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD1:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" "iot-thing_Library_11:SW_Push_1P1T_NO_6x6mm_H9.5mm"
 			(at 50.8 213.36 0)
 			(effects
 				(font
@@ -20953,7 +20953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "iot-thing_Library_11:PinHeader_2x05_P2.54mm_Vertical"
 			(at 163.83 262.89 0)
 			(effects
 				(font
